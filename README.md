@@ -9,5 +9,8 @@ How do you use it?
 Install into your perferred location on whatever device you will use to communicate with the V5 Brain
 Tweak the port references
 Using the terminals write to screen method, you can send any data you would like! Make sure to include the '\n' character or else it will not work
+
 See test.py *
+
+
 Is there a better way to do this? Probably, but this was the quickest solution our team found.
