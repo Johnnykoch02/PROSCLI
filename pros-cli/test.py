@@ -7,13 +7,6 @@ from pros.serial.terminal import Terminal
 # from serial import SerialException
 import threading
 
-def open_terminal():
-    t = threading.currentThread()
-    # while(getattr(t, 'do_run', True)):
-    os.system('pros terminal COM5')
-
-
-
 time.sleep(1.0)
 # Tweak Ports to reflect the port your V5 Device is plugged into
 ports = ['COM5'] #'COM6']
